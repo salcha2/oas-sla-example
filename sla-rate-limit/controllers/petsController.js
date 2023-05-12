@@ -1,4 +1,4 @@
-export function getTeams(_, res) {
+export function getBicicleta(_, res) {
     res.send([{ "year": 2019, "province": "Sevilla" }])
 }
 
@@ -6,4 +6,3 @@ export function getTeams(_, res) {
 export function findByid(_, res) {
     res.send({ "year": 2019, "province": "Sevilla" })
 }
-
